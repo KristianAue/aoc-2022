@@ -47,5 +47,5 @@ module.exports = (() => {
     const part2 = folderStructureValues.filter((v) => v + (70000000 - folderStructure['/']) >= 30000000).sort((a, b) => a - b).find(() => true);
 
     console.log(`Part 1: ${part1}`);
-    console.log(`Part 1: ${part2}`);
+    console.log(`Part 2: ${part2}`);
 })();
